@@ -1,0 +1,129 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #3b4a67;
+}
+
+.container {
+    width: 400px;
+    height: 700px;
+    background-color: white;
+}
+
+.cat {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+
+.photos {
+    width: 120px;
+    height: 80px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.button-1, .button-2 {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.249);
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.main_container {
+    background-image: url(nature.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.anissa {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 75px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button-2 {
+    margin-left: 95px;
+    margin-top: 15px;
+}
+
+table {
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.followbtn {
+    width: 200px;
+    height: 40px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left: 97px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.arrowleft, .arrowright {
+    width: 30px;
+    height: 30px;
+}
+
+.mid_container {
+    width: 350px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 150px 150px 0px;
+    padding: 20px;
+}
+
+.p_one_mid {
+    margin-top: -5px;
+}
+
+.profile_photos .section_photo_1 img {
+    width: 125px;
+}
+
+.profile_photos .section_photo_2 img {
+    width: 190px;
+}
+
+.grid_self_three {
+    width: 385px;
+    height: 70px;
+    margin-left: 7px;
+    
+}
+
+.profile_photos .section_photo_1 {
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+
+.profile_photos .section_photo_2 {
+    display: grid;
+    grid-template-columns: 195px 195px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
+
+.profile_photos .section_photo_3 {
+    display: grid;
+    grid-template-columns: 195px;
+    margin-left: 7px;
+    margin-bottom: 5px;
+}
